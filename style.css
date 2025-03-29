@@ -1,0 +1,80 @@
+*{
+    font-size: 3vmin;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    background-color: rgb(110, 203, 235);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.head{
+    background-color: rgb(255, 170, 0);
+    width: 90%;
+    color: white;
+    font-weight: 900;
+    border: 3px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.counter{
+    background-color: lightblue;
+    height: 50vh;
+    width: 70%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.count{
+    height: 20vh;
+    border: 3px solid black;
+    width: 90%;
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 20vh;
+    font-size: 15vmin;
+    background-color: lightyellow;
+}
+
+.controls{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    color: black;
+    padding: 1rem;
+    border: 3px solid black;
+    flex-basis: 5rem;
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+#decrement{
+    background-color: red;
+    color: white;
+}
+
+#increment{
+    background-color: green;
+    color: white;
+}
+
+#reset{
+    background-color: blue;
+    color: white;
+}
